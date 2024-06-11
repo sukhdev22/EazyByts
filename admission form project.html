@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission form </title>
+</head>
+<body style="background-color: antiquewhite;">
+
+    <header>
+    <h1 style="text-align: center; color: brown; border: 2px solid black; background: goldenrod;">Fill The Admission form </h1>
+
+<p> <marquee behavior="alternate"
+    style="border: 6px solid black; background-color: goldenrod;"
+    >Year 2024-2025</marquee></p>
+    <h2 style="text-align: center; color: rgb(49, 36, 101); border: 2px solid red; background-color: goldenrod;">L B S Collage Rajapark Jaipur <br><br>Admission Start Year 2024-2025 </h2>
+    </header>
+    
+        <form action="action_page.php">
+       <section>
+        <h2>Student Details</h2><br><br>
+        <label for="fname">*Firstname: </label>
+        <input type="text" id="fmane" name="fname" placeholder="sukhdev" required><br><br>
+
+
+        <label for="lname">*Lastname: </label>
+        <input type="text" id="lname" name="lname" placeholder="sharma" required><br><br><br>
+
+        <label for="name">*Father Name: </label>
+        <input type="text" id="name" name="name" placeholder="mukesh sharma" required><br><br>
+
+        <label for="name">*Mother Name: </label>
+        <input type="text" id="name" name="name" placeholder="sushila devi" required><br><br>
+
+        <label for="date">*Date Of Birth: </label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="Gender">*Gender: </label>
+    <input type="radio" name="Gender" value="Male" >male
+    <input type="radio" name="Gender" value="Female">female <br><br>
+
+      <label for="number">*Mobile No: </label>
+      <input type="text" id="number" name="number" placeholder="123-456-7890" required><br><br>
+
+        <label for="address">*Address: </label>
+        <input type="text" id="address" name="address" required><br><br>
+  
+
+    </section>
+<section>
+    <label for="states-select">*Choose a state :</label>
+
+
+<select name="states" id="state- select">
+<option value="">please choose a option :</option>
+    <option value="goa">goa</option>
+    <option value="gujrat">gujrat</option>
+    <option value="rajasthan">rajasthan</option>
+    <option value="uttar-pradesh">uttar-pradesh</option>
+    <option value="himachal-pradesh">himachal-pradesh</option>
+    <option value="delhi">delhi</option>
+    <option value="sikkim">sikkim</option>
+    <option value="manipur">manipur</option>
+    <option value="udisa">udisa</option>
+    <option value="nagaland">nagaland</option>
+    <option value="tripura">tripura</option>
+    <option value="maharastra">maharastra</option>
+    <option value="panjab">panjab</option>
+</select><br><br><br>
+
+<label for="email">*Email ID :</label>
+<input type="text" id="email" name="email" placeholder="sukhdevsharma222@gamil.com" required><br><br><br>
+</section>
+
+<p>*which of the following skills do you possess</p><br><br>
+
+<label for="choose-skill">*Choose a skill :</label><br><br>
+
+<input type="checkbox">HTML
+
+<input type="checkbox">CSS
+
+<input type="checkbox">Javascipt
+
+<input type="checkbox">PHP
+
+<input type="checkbox">SQL
+
+<input type="checkbox">JAVA
+
+<input type="checkbox">JS.react
+
+<input type="checkbox">python
+
+</form><br><br><br>
+
+  <h2>*class details</h2>
+<table border="10" width="70%" bgcolor="white">
+<tr>
+<th>class</th>
+<th>10th</th>
+<th>12th</th>
+</tr>
+
+<tr>
+<td>marks obtain</td>
+<td><center><input type="text" name="10marks"></center></td>
+
+<td><center><input type="text" name="12marks"></center></td>
+</tr>
+
+<tr>
+    <td>percentage</td>
+
+    <td><center><input type="text" name="10perc"></center></td>
+
+    <td><center><input type="text" name="12perc"></center></td>
+</tr>
+
+<tr>
+    <td>board</td>
+
+    <td><center><input type="text" name="10board"></center></td>
+
+    <td><center><input type="text" name="12board"></center></td>
+</tr>
+</table><br><br><br>
+    <a href="button"><input type="button" value="submit">
+
+    <input type="button" value="reset">
+    </a>
+<br><br><br>
+
+<p>&copy; copyrights </p>
+<p>
+    <a href="link" target="_blank">www.tweter.com</a><br><br>
+    <a href="link">www.facebook.com</a>
+
+</p>
+</body>
+</html>
